@@ -1,3 +1,7 @@
+clean:
+	rm -rf dist/ build/ *.egg-info
+
+
 install:
 	uv sync
 
