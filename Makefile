@@ -16,3 +16,7 @@ force-install:
 
 packege-install:
 	uv tool install dist/*.whl
+
+
+lint:
+	uv run ruff check brain-games
