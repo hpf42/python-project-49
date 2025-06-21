@@ -25,6 +25,9 @@ brain-games:
 brain-even:
 	uv run brain-even
 
+brain-calc:
+	uv run brain-calc
+
 
 lint:
-	uv run ruff check brain-games
+	uv run ruff check brain_games

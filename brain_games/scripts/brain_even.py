@@ -1,16 +1,16 @@
 #!/usr/bin/env python3
 
 from random import randint
-import prompt
+
+from brain_games.scripts.get_name import get_name
 
 
 def is_even(number):
     return number % 2 == 0
 
+
 def main():
-    print('Welcome to the Brain Games!')
-    name = prompt.string('May I have your name? ')
-    print(f'Hello, {name}!')
+    name = get_name()
 
     print('Answer "yes" if the number is even, otherwise answer "no"')
 
@@ -29,9 +29,10 @@ def main():
         else:
             print("'yes' is wrong answer ;(. Correct answer is 'no'.")
             print(f"Let's try again, {name}!")
-            return  
+            break
 
     print(f"Congratulations, {name}!")
+
 
 if __name__ == '__main__':
     main()
