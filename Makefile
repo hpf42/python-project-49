@@ -38,6 +38,10 @@ brain-progression:
 	uv run brain-progression
 
 
+brain-prime:
+	uv run brain-prime
+
+
 lint:
 	uv run ruff check brain_games
 
