@@ -1,4 +1,5 @@
 [project]
+author = "Talko Denis"
 name = "hexlet-code"
 version = "0.1.1"
 description = "Add your description here"
