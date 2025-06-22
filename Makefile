@@ -34,6 +34,10 @@ brain-gdc:
 	uv run brain-gdc
 
 
+brain-progression:
+	uv run brain-progression
+
+
 lint:
 	uv run ruff check brain_games
 
