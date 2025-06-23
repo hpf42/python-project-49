@@ -12,7 +12,7 @@ def is_even(number):
 def main():
     name = get_name()
 
-    print('Answer "yes" if the number is even, otherwise answer "no"')
+    print('Answer "yes" if the number is even, otherwise answer "no".')
 
     correct_answers = 0
 

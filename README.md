@@ -6,6 +6,13 @@
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=hpf42_my-project&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=hpf42_my-project)
 
 
+[![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=hpf42_my-project&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=hpf42_my-project)
+
+
+
+[![Quality gate](https://sonarcloud.io/api/project_badges/quality_gate?project=hpf42_my-project)](https://sonarcloud.io/summary/new_code?id=hpf42_my-project)
+
+
 
 Hello!
 
