@@ -25,6 +25,9 @@
 [![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=hpf42_my-project&metric=reliability_rating)](https://sonarcloud.io/summary/new_code?id=hpf42_my-project)
 
 
+777
+
+https://sonarcloud.io/api/project_badges/measure?project=hpf42_my-project&metric=reliability_rating
 
 
 Hello!
