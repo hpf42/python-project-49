@@ -16,7 +16,7 @@ def main():
 
     correct_answers = 0
 
-    while correct_answers < 3:
+    for _ in range(3):
         number = randint(1, 100)
         print(f"Question: {number}")
         user_answer = input("Your ansver: ").strip().lower()
@@ -29,10 +29,8 @@ def main():
         else:
             print("'yes' is wrong answer ;(. Correct answer is 'no'.")
             print(f"Let's try again, {name}!")
-            break
-
-    if correct_answer == 3:
-        print(f"Congratulations, {name}!")
+            return
+    print(f"Congratulations, {name}!")
 
 
 if __name__ == '__main__':
