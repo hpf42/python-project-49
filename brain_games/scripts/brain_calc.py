@@ -17,6 +17,7 @@ def get_operation():
 
 def main():
     name = get_name()
+    print('What is the result of the of the expression?')
     for _ in range(3):
         correct_answer, result = get_operation()
         user_question = f'Question: {result}'
