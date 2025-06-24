@@ -9,7 +9,7 @@ from brain_games.scripts.get_name import get_name
 
 def main():
     name = get_name()
-    print('Find the greatest common divisor of given numbers')
+    print('Find the greatest common divisor of given numbers.')
     for _ in range(3):
         number_1 = randint(1, 101)
         number_2 = randint(1, 101)
