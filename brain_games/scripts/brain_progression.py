@@ -17,6 +17,7 @@ def generate_progression():
     
 def main():
     name = get_name()
+    print('What number is missing in the progression?')
     for _ in range(3):
         progression_str, correct_answer = generate_progression()
         print(f'Question: {progression_str}')
