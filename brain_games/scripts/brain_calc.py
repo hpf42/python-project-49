@@ -28,7 +28,7 @@ def main():
             print('Correct!')
         else:
             print(f'{str(user_answer)} is wrong answer ;(. Correct answer was {str(correct_answer)}')
-            print(f"Let's try again, {name}")
+            print(f"Let's try again, {name}!")
             return
     print(f'Congratulations, {name}!')
 
