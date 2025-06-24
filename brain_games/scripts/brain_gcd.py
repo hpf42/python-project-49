@@ -22,7 +22,7 @@ def main():
             print(f'{str(user_answer)} is wrong answer ;(. Correct answer was {str(correct_answer)}')
             print(f"Let's try again, {name}")
             return
-    print(f'Congratulations, {name}')
+    print(f'Congratulations, {name}!')
 
 
 if __name__ == '__main__()':
