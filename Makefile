@@ -30,8 +30,8 @@ brain-calc:
 	uv run brain-calc
 
 
-brain-gdc:
-	uv run brain-gdc
+brain-gcd:
+	uv run brain-gcd
 
 
 brain-progression:
