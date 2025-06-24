@@ -19,7 +19,7 @@ def main():
     for _ in range(3):
         number = randint(1, 100)
         print(f"Question: {number}")
-        user_answer = input("Your ansver: ").strip().lower()
+        user_answer = input("Your answer: ").strip().lower()
 
         correct_answer = 'yes' if is_even(number) else 'no'
 
