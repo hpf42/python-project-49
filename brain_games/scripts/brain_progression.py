@@ -25,7 +25,8 @@ def main():
         if correct_answer == user_answer:
             print('Correct!')
         else:
-            print(f"{user_answer} is wrong answer ;(. Correct answer was {correct_answer}.")
+            ua, ca = user_answer, correct_answer
+            print(f"{ua} is wrong answer ;(. Correct answer was {ca}.")
             print(f"Let's try again, {name}!")
             return
     print(f'Congratulations, {name}!')
