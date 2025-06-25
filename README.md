@@ -10,6 +10,8 @@ Hello!
 
 It's my project.
 
+You may see how it's working:
+
 https://asciinema.org/a/jk6jNDGbGqnfF0LHKQBexJWjl
 
 
@@ -23,3 +25,7 @@ https://asciinema.org/connect/8b849b3c-6dd1-4384-b115-280861e683f8
 
 
 https://asciinema.org/connect/8b849b3c-6dd1-4384-b115-280861e683f8
+
+### Requirements:
+
+- Python 3.8
